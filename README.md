@@ -17,6 +17,70 @@ A skill that converts articles into concise knowledge cards for study and self-t
 - No Anki export
 - No graphical interface
 
+## Installation
+
+This is a TRAE Skill — a rule module that tells TRAE's AI how to convert articles into knowledge cards. It runs inside TRAE, not as a standalone app.
+
+### Step 1: Download the project
+
+**Option A: Clone via Git**
+
+```bash
+git clone https://github.com/Dandel-47/article-to-knowledge-cards.git
+```
+
+**Option B: Download ZIP**
+
+Go to https://github.com/Dandel-47/article-to-knowledge-cards, click the green "Code" button, then "Download ZIP". Extract it.
+
+### Step 2: Copy the skill to TRAE's skills directory
+
+Find your TRAE skills directory:
+
+| OS | Path |
+|---|---|
+| Windows | `C:\Users\<your-username>\.trae-cn\skills\` |
+| macOS | `~/.trae-cn/skills/` |
+| Linux | `~/.trae-cn/skills/` |
+
+If the `skills` folder does not exist, create it manually.
+
+Then copy the `make-knowledge-cards` folder into it:
+
+```
+# Example (Windows PowerShell)
+Copy-Item -Path ".\skills\make-knowledge-cards" -Destination "C:\Users\<your-username>\.trae-cn\skills\" -Recurse
+
+# Example (macOS / Linux)
+cp -r ./skills/make-knowledge-cards ~/.trae-cn/skills/
+```
+
+The final structure should look like:
+
+```
+~/.trae-cn/skills/
+└── make-knowledge-cards/
+    ├── SKILL.md
+    └── agents/
+        └── openai.yaml
+```
+
+### Step 3: Verify installation
+
+Open TRAE, start a new conversation, and try:
+
+> Use make-knowledge-cards to turn the following article into knowledge cards: [paste your article here]
+
+If TRAE recognizes the skill, it will generate 5-8 knowledge cards following the format defined in SKILL.md.
+
+### Optional: Keep the validation script
+
+The `quick_validate.py` script checks the skill structure. You can keep it anywhere on your computer:
+
+```bash
+python quick_validate.py
+```
+
 ## Usage
 
 ### Input Methods
