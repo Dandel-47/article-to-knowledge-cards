@@ -1,0 +1,4 @@
+interface:
+  display_name: "Knowledge Cards"
+  short_description: "Turn articles into study cards"
+  default_prompt: "Use $make-knowledge-cards to convert the provided article or text file into 5-8 knowledge cards, each with a title, core knowledge, explanation, and an example or self-test question."

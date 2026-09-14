@@ -1,0 +1,17 @@
+The History of the World Wide Web
+
+The World Wide Web was invented by Tim Berners-Lee in 1989 while he was working at CERN, the European Organization for Nuclear Research. His original proposal was called "Information Management: A Proposal" and it described a system for sharing information among researchers using hypertext links.
+
+The first website was launched in 1991 at CERN. It was a simple page that explained what the World Wide Web was, how to get a browser, and how to set up a web server. At this point, the Web was primarily a tool for scientists to share documents.
+
+In 1993, CERN made a crucial decision: they released the Web's underlying code into the public domain. This meant anyone could use, modify, and build upon the technology without paying royalties. This decision was instrumental in the Web's explosive growth, because it removed all barriers to adoption.
+
+The year 1993 also saw the release of Mosaic, the first popular graphical web browser. Developed at the University of Illinois, Mosaic could display images alongside text, making the Web visually appealing for the first time. Marc Andreessen, one of Mosaic's developers, later co-founded Netscape, which released the Netscape Navigator browser in 1994.
+
+The mid-1990s saw the beginning of the browser wars. Microsoft integrated Internet Explorer into Windows, giving it an enormous distribution advantage. Netscape eventually lost the market share battle and was acquired by AOL in 1999. However, the Netscape codebase was open-sourced and eventually became Mozilla Firefox.
+
+The dot-com boom of the late 1990s saw enormous investment in Web-based companies. Many of these companies had no viable business model but attracted billions in venture capital. When the bubble burst in 2000-2001, many companies went bankrupt, but the infrastructure and user base they built laid the groundwork for the next phase of Web development.
+
+The early 2000s saw the emergence of what came to be called "Web 2.0" — a shift from static web pages to dynamic, user-generated content. Platforms like Wikipedia, Blogger, and later YouTube and Facebook transformed the Web from a publishing medium into a participatory platform. Users were no longer just consumers of content; they became creators.
+
+Tim Berners-Lee has always advocated for a free and open Web. He founded the World Wide Web Consortium (W3C) in 1994 to develop open standards. He has consistently argued that the Web should be a neutral platform that does not discriminate against any person, content, or application. This principle of net neutrality remains a topic of ongoing debate.
