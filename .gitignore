@@ -19,3 +19,6 @@ desktop.ini
 # Installer files
 *Installer.exe
 *.exe
+
+# Token files (never commit)
+.token
